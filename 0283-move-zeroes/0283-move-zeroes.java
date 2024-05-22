@@ -6,7 +6,6 @@ class Solution {
         
         while (j < n) {
             if (nums[j] != 0) {
-                // Swap non-zero element with the element at position i
                 int temp = nums[i];
                 nums[i] = nums[j];
                 nums[j] = temp;
